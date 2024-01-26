@@ -97,28 +97,28 @@ const GridItems: GridItemInterface[] = [
     type: "project",
     title: "warung web store fullstack",
     image: "/warungweb.png",
-    // buttonLink: "https://superpeer.com/makrdev/-/nextjs-mentor",
+    buttonLink: "https://github.com/Kulicoding28/warungweb-store",
   },
   {
     layout: "1x2",
     type: "project",
     title: "Dashboard warung web fullstack",
     image: "/warungwebdb.png",
-    // buttonLink: "https://superpeer.com/makrdev/-/nextjs-mentor",
+    buttonLink: "https://github.com/Kulicoding28/warung-web",
   },
   {
     layout: "1x2",
     type: "project",
     title: "Go-Blogs fullstack",
     image: "/blogs.png",
-    // buttonLink: "https://superpeer.com/makrdev/-/nextjs-mentor",
+    buttonLink: "https://github.com/Kulicoding28/Goblogs",
   },
   {
     layout: "1x2",
     type: "project",
     title: "Mandiri Kusen Freelance",
     image: "/mandirikusen.png",
-    // buttonLink: "https://superpeer.com/makrdev/-/nextjs-mentor",
+    buttonLink: "https://github.com/Kulicoding28/mandirikusen",
   },
 
   {
@@ -128,14 +128,14 @@ const GridItems: GridItemInterface[] = [
     icon: "superpeer",
     buttonLink: "https://socket.dev/npm/package/gibahtech",
   },
-  {
-    layout: "2x1",
-    type: "project",
-    title: "makrAI",
-    icon: "github",
-    color: "#070707",
-    buttonLink: "https://socket.dev/npm/package/gibahtech",
-  },
+  // {
+  //   layout: "2x1",
+  //   type: "project",
+  //   title: "makrAI",
+  //   icon: "github",
+  //   color: "#070707",
+  //   buttonLink: "https://socket.dev/npm/package/gibahtech",
+  // },
   // {
   //   layout: "2x2",
   //   type: "social",
@@ -164,7 +164,7 @@ export const siteConfig = {
   bio: "Freelance Web Developper",
   location: "Depok, West Java",
   locationLink:
-    "https://www.google.com/maps/place/Kad%C4%B1k%C3%B6y%2F%C4%B0stanbul/@40.981133,29.063053,12z/data=!3m1!4b1!4m6!3m5!1s0x14cac790b17ba89d:0xd2d24ea0437a7ee2!8m2!3d40.981867!4d29.0576302!16zL20vMDV5cWY4?entry=ttu",
+    "https://www.google.com/maps/place/Kota+Depok,+Jawa+Barat/@-6.3876714,106.7353947,12z/data=!3m1!4b1!4m6!3m5!1s0x2e69e95620a297d3:0x1cfd4042316fb217!8m2!3d-6.4024844!4d106.7942405!16zL20vMDMyd2s0?entry=ttu",
   email: "ahmadabdulaziz380@gmail.com",
   items: GridItems,
 } as const;
