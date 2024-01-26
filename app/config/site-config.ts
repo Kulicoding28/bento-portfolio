@@ -39,6 +39,7 @@ const GridItems: GridItemInterface[] = [
     title: "Dribble",
     icon: "dribble",
     username: "@Ahmad Aziz",
+    buttonTitle: "Follow",
     buttonLink: "https://dribbble.com/kkenzumi",
     color: "#5865F2",
   },
