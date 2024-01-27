@@ -59,7 +59,7 @@ const GridItems: GridItemInterface[] = [
     layout: "2x4",
     type: "skills",
     title: "Skills",
-    image: "/equipments-image.jpeg",
+    image: "/skills.png",
     skills: [
       {
         title: "Javascript",
