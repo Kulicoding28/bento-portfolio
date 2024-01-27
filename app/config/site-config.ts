@@ -9,6 +9,8 @@ export interface GridItemInterface {
   layout: GridItemLayout;
   type: GridItemType;
   title: string;
+  category?: string;
+  tech?: string;
   icon?: string;
   username?: string;
   description?: string;
@@ -94,15 +96,19 @@ const GridItems: GridItemInterface[] = [
     description: "shering about programming, web ai and ui design",
   },
   {
-    layout: "1x2",
     type: "project",
-    title: "warung web store fullstack",
+    category: "fullstack Javascript",
+    tech: "Nextjs prisma planetscale clerk tailwind",
+    title: "warung web store",
     image: "/warungweb.png",
+    layout: "1x2",
     buttonLink: "https://github.com/Kulicoding28/warungweb-store",
   },
   {
     layout: "1x2",
     type: "project",
+    category: "fullstack Javascript",
+    tech: "Nextjs prisma planetscale clerk tailwind",
     title: "Dashboard warung web fullstack",
     image: "/warungwebdb.png",
     buttonLink: "https://github.com/Kulicoding28/warung-web",
@@ -110,6 +116,8 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "1x2",
     type: "project",
+    category: "fullstack Javascript",
+    tech: "Nextjs strapi tailwind",
     title: "Go-Blogs fullstack",
     image: "/blogs.png",
     buttonLink: "https://github.com/Kulicoding28/Goblogs",
@@ -117,6 +125,8 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "1x2",
     type: "project",
+    category: "Landing page",
+    tech: "Astro Tailwind",
     title: "Mandiri Kusen Freelance",
     image: "/mandirikusen.png",
     buttonLink: "https://github.com/Kulicoding28/mandirikusen",
@@ -125,6 +135,8 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x1",
     type: "project",
+    category: "Tamplate Project Npm Package",
+    tech: "Exprees Node etc",
     title: "Gibahtech CLI tamplate projects",
     icon: "superpeer",
     buttonLink: "https://socket.dev/npm/package/gibahtech",
