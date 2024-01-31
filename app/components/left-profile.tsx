@@ -3,6 +3,7 @@
 import { Avatar } from "@nextui-org/react";
 import { siteConfig } from "../config/site-config";
 import { Mail, MapPin } from "lucide-react";
+import Footer from "./footer";
 
 const LeftProfile = () => {
   return (
@@ -43,6 +44,9 @@ const LeftProfile = () => {
             <Mail size="14" />
             Contact Me
           </a>
+        </div>
+        <div className="hidden mt-6 xl:flex">
+          <Footer />
         </div>
       </div>
     </div>
