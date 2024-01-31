@@ -5,7 +5,7 @@ import Button from "../button";
 
 const Social = ({ item }: { item: GridItemInterface }) => {
   return (
-    <Link href={item.buttonLink ?? ""}>
+    <Link href={item.buttonLink ?? ""} target="_blank">
       {/* header */}
       <div className="flex items-center justify-between">
         {item.icon && <Icon type={item.icon} color={item.color ?? "#fff"} />}
