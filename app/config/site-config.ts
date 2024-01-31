@@ -132,15 +132,15 @@ const GridItems: GridItemInterface[] = [
     buttonLink: "https://github.com/Kulicoding28/mandirikusen",
   },
 
-  {
-    layout: "2x1",
-    type: "project",
-    category: "Tamplate Project Npm Package",
-    tech: "Exprees Node etc",
-    title: "Gibahtech CLI tamplate projects",
-    icon: "superpeer",
-    buttonLink: "https://socket.dev/npm/package/gibahtech",
-  },
+  // {
+  //   layout: "2x1",
+  //   type: "project",
+  //   category: "Tamplate Project Npm Package",
+  //   tech: "Exprees Node etc",
+  //   title: "Gibahtech CLI tamplate projects",
+  //   icon: "superpeer",
+  //   buttonLink: "https://socket.dev/npm/package/gibahtech",
+  // },
   // {
   //   layout: "2x1",
   //   type: "project",
@@ -149,18 +149,17 @@ const GridItems: GridItemInterface[] = [
   //   color: "#070707",
   //   buttonLink: "https://socket.dev/npm/package/gibahtech",
   // },
-  // {
-  //   layout: "2x2",
-  //   type: "social",
-  //   title: "Full-stack Multilingual Blog with Next.js 13",
-  //   username: "@batuhanbilginn",
-  //   description:
-  //     "Learn how to build a full-stack, multilingual and high performant blog website with Next.js 13.4 and Directus.",
-  //   icon: "udemy",
-  //   buttonTitle: "Enroll",
-  //   buttonLink:
-  //     "https://www.udemy.com/course/nextjs13-fullstack-blog-seo-internationalization/?couponCode=MAKRDEVFELLOWS2",
-  // },
+  {
+    layout: "2x2",
+    type: "social",
+    title: "Tamplate Project CLI Package NPM",
+    username: "@gibahtech",
+    description:
+      "The CLI project setup template is designed to save time in temporarily setting up a full-stack JavaScript project, and I will update it in the future.",
+    icon: "udemy",
+    buttonTitle: "see detail",
+    buttonLink: "https://www.npmjs.com/package/gibahtech",
+  },
   // {
   //   layout: "2x1",
   //   type: "project",
@@ -173,7 +172,9 @@ const GridItems: GridItemInterface[] = [
 
 export const siteConfig = {
   creator: "Ahmad Aziz",
+  name: "@AhmadAziz",
   title: "Junior Web Developper",
+  link: "https://github.com/Kulicoding28",
   bio: "Freelance Web Developper",
   location: "Depok, West Java",
   locationLink:
