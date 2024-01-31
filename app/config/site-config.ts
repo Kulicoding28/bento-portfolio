@@ -132,42 +132,17 @@ const GridItems: GridItemInterface[] = [
     buttonLink: "https://github.com/Kulicoding28/mandirikusen",
   },
 
-  // {
-  //   layout: "2x1",
-  //   type: "project",
-  //   category: "Tamplate Project Npm Package",
-  //   tech: "Exprees Node etc",
-  //   title: "Gibahtech CLI tamplate projects",
-  //   icon: "superpeer",
-  //   buttonLink: "https://socket.dev/npm/package/gibahtech",
-  // },
-  // {
-  //   layout: "2x1",
-  //   type: "project",
-  //   title: "makrAI",
-  //   icon: "github",
-  //   color: "#070707",
-  //   buttonLink: "https://socket.dev/npm/package/gibahtech",
-  // },
   {
     layout: "2x2",
     type: "social",
+    icon: "npm",
     title: "Tamplate Project CLI Package NPM",
     username: "@gibahtech",
     description:
       "The CLI project setup template is designed to save time in temporarily setting up a full-stack JavaScript project, and I will update it in the future.",
-    icon: "udemy",
     buttonTitle: "see detail",
     buttonLink: "https://www.npmjs.com/package/gibahtech",
   },
-  // {
-  //   layout: "2x1",
-  //   type: "project",
-  //   title: "AI Blog Post Generator",
-  //   icon: "github",
-  //   color: "#070707",
-  //   buttonLink: "https://github.com/batuhanbilginn/ai-blog-post-generator",
-  // },
 ];
 
 export const siteConfig = {
