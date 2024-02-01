@@ -120,7 +120,7 @@ const GridItems: GridItemInterface[] = [
     tech: "Nextjs strapi tailwind",
     title: "Go-Blogs fullstack",
     image: "/blogs.png",
-    buttonLink: "https://github.com/Kulicoding28/Goblogs",
+    buttonLink: "https://goblogs.vercel.app/",
   },
   {
     layout: "2x4",
@@ -129,7 +129,7 @@ const GridItems: GridItemInterface[] = [
     tech: "Astro Tailwind",
     title: "Mandiri Kusen Freelance",
     image: "/mandirikusen.png",
-    buttonLink: "https://github.com/Kulicoding28/mandirikusen",
+    buttonLink: "https://mandirikusen.com/",
   },
 
   {
