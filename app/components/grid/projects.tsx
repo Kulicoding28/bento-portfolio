@@ -6,7 +6,9 @@ const Project = ({ item }: { item: GridItemInterface }) => {
   return (
     <Link href={item.buttonLink ?? ""} target="_blank">
       <div className="flex flex-col items-center">
-        <p className="@lg:text-lg font-semibold line-clamp-1 ">{item.title}</p>
+        <p className="@lg:text-lg font-semibold  line-clamp-1 mt-0 xl:mt-8">
+          {item.title}
+        </p>
         <p className="text-sm text-neutral-500 ">{item.tech}</p>
       </div>
       <Image

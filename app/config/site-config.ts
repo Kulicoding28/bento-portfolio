@@ -151,7 +151,7 @@ export const siteConfig = {
   title: "Junior Web Developper",
   link: "https://github.com/Kulicoding28",
   bio: "Freelance Web Developper",
-  location: "Depok, West Java",
+  location: "Depok",
   locationLink:
     "https://www.google.com/maps/place/Kota+Depok,+Jawa+Barat/@-6.3876714,106.7353947,12z/data=!3m1!4b1!4m6!3m5!1s0x2e69e95620a297d3:0x1cfd4042316fb217!8m2!3d-6.4024844!4d106.7942405!16zL20vMDMyd2s0?entry=ttu",
   email: "ahmadabdulaziz380@gmail.com",

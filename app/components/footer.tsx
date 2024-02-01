@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="flex items-center justify-center pt-6 w-full  border-t border-neutral-100 dark:border-neutral-800">
       <div className="container flex items-center justify-between">
         <div className="text-xs text-neutral-500">
-          Built by @Ahmad_Aziz || ©2024 gibahtech. All Rights Reserved
+          ©2024 gibahtech. All Rights Reserved
         </div>
         <ThemeToggle />
       </div>
