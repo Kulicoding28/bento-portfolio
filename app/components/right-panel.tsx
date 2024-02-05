@@ -36,7 +36,7 @@ const RightPanel = () => {
   return (
     <div
       ref={scope}
-      className="grid w-full h-full grid-cols-4 xl:gap-10 gap-8 xl:py-6 py-4  xl:px-2 xl:overflow-y-auto auto-rows-[80px]"
+      className="grid w-full h-full grid-cols-4 xl:gap-10 gap-8 xl:py-8 py-6  xl:px-2 xl:overflow-y-auto auto-rows-[80px]"
     >
       {siteConfig.items.map((item, index) => {
         return (

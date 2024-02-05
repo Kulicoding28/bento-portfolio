@@ -6,6 +6,7 @@ import {
   CardBody,
   CardFooter,
   CardHeader,
+  Code,
   Link,
 } from "@nextui-org/react";
 import { siteConfig } from "../config/site-config";
@@ -45,16 +46,11 @@ const LeftProfile = () => {
                   💻
                 </span>
               </span>
+
+              <p className="pt-1">{siteConfig.cta}</p>
             </CardBody>
             <CardFooter className="gap-3">
-              <Link
-                isExternal
-                showAnchorIcon
-                href={siteConfig.link}
-                target="_blank"
-              >
-                <p className="text-sm">Visit all code project on GitHub.</p>
-              </Link>
+              <Code color="primary">npx gibahtech</Code>
             </CardFooter>
             <div className="xl:hidden p-4 flex text-center items-center">
               <Footer />
@@ -90,6 +86,7 @@ const LeftProfile = () => {
             Contact
           </a>
         </div>
+
         <div className="hidden mt-6 xl:flex">
           <Footer />
         </div>
