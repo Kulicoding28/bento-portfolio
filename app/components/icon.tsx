@@ -1,4 +1,4 @@
-"use client";
+"use server";
 
 const Icons: {
   [key: string]: JSX.Element;
